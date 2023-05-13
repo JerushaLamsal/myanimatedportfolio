@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website With Typing Effect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="container">
+    <nav>
+        <div class="logo">folio<b>.</b></div>
+    <ul class="navItems">
+        <li><a href="#">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="blog.html">blog</a></li>
+    </ul>
+
+    <div class="links">
+        <a href="https://www.linkedin.com/in/jerusha-lamsal/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BVyQFW13WTs%2Bo03IdLMRZBw%3D%3D" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/jeraa_don/" target="_blank" class="fa fa-instagram"></a>
+             <a href="https://twitter.com/JerushaLamsal" target="_blank" class="fa fa-twitter"></a>
+    </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Hello</span>
+            <h1>I'm <span class="multiText"></span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, iure repellendus qui dolore, minima culpa iste facere, vero consequuntur impedit quibusdam aliquid eaque eligendi! Alias id dolor earum quod maiores.</p>
+            <div class="btns">
+                <button>download CV</button>
+                <button>hire me</button>
+            </div>
+        </div>
+
+        <div class="cols cols1">
+            <div class="imgbox">
+            
+                <img src="img\bg.jpg" >
+            </div>
+        </div>
+    </div>
+   </div>
+   
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typingEffect = new Typed(".multiText",{
+        strings:["front-end developer","coder","designer"],
+        loop:true,
+        typeSpeed :100,
+        backSpeed:80,
+        backDelay:1500
+    })
+   </script>
+</body>
+</html>
